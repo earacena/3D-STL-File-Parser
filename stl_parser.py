@@ -34,6 +34,29 @@ def parse_ascii_stl_file(filename):
 
 parsed = parse_ascii_stl_file(str(sys.argv[1]))
 
-# for i in range(0, 9, 2)
-#      dosomething(i)
+vertices = []
 
+for i in range(0, len(parsed), 4):
+    #print("normal: %s" % parsed[i].split(' '))
+    split = parsed[i+1].split(' ')
+    print("vert: %s" % split)
+    vertices.append([float(num) for num in split])
+
+    split = parsed[i+2].split(' ')
+    print("vert: %s" % split)
+    vertices.append([float(num) for num in split])
+                    
+    split = parsed[i+3].split(' ')
+    print("vert: %s" % split)
+    vertices.append([float(num) for num in split])
+
+print (vertices)
+
+edges = []
+
+for x in range(0, len(vertices), 3):
+    edges.append((x, x+1))
+    edges.append((x+1, x+2))
+    edges.append((x+2, x))
+
+print (edges)
