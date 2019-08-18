@@ -27,4 +27,4 @@ Then in the folder with the project files, type:
 
 `source 3dv_env/bin/activate`
 
-The terminal line should now have a `(3dv_env)` preceeding it, now simply follow the instructions above to run the script.
+The terminal line should now have a `(3dv_env)` preceeding it, now simply follow the instructions above to run the parser.
