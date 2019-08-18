@@ -18,3 +18,13 @@ The Sphericon.stl file is a example file included from the [STL format wikipedia
 To try it out type:
 
 `python3 stl_parser.py Sphericon.stl`
+
+To use the included virtual environment with dependencies installed, make sure to have the `virtualenv` package installed. If not type (using pip3):
+
+`pip install virtualenv`
+
+Then in the folder with the project files, type:
+
+`source 3dv_env/bin/activate`
+
+The terminal line should now have a `(3dv_env)` preceeding it, now simply follow the instructions above to run the script.
