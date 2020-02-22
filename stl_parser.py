@@ -1,5 +1,5 @@
 #
-# Author:       Emanuel Aracena
+# Author:       Emanuel Aracena Beriguete
 # Date Created: June 14, 2019
 # Description:  A parser of ACSII .stl files.
 #               The data will get put into an array following the pattern
