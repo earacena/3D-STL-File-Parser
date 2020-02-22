@@ -1,6 +1,6 @@
 # 3D STL File Format Parser
 ### Author
-Emanuel Aracena
+Emanuel Aracena Beriguete
 
 ### Date Created
 June 14, 2019
